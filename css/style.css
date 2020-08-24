@@ -149,6 +149,11 @@ table.classmates tr td.id{
     font-weight: bold;
 }
 
+table.classmates tr td.email{
+    font-style: italic;
+    font-size: 14px;
+}
+
 table.classmates tr td{
     border: solid 1px rgb(100,100,100);
     vertical-align: top;
