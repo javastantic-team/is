@@ -1,2 +1,2 @@
-# javastantic-team.github.io
-Sitio web de proyectos escolares
+# javastantic-team.github.io/is
+Sitio web de proyectos de Ingeniería de Software
