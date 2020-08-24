@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+    background-image: url("../img/bg/space.jpg");
+    background-position: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: justify;
+}
+
+div.title{
+    background-color: rgba(151, 167, 231, 0.7);
+    justify-content: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+div.sub{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 768px;
+    max-height: 192px;
+}
+img.fcc, img.buap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 200px;
+}
+
+img.pic{
+    height: auto;
+    width: 200px;
+}
+
+div.main{
+    max-width: 800px;
+    height: auto;
+    background-color: rgba(255,255,255,0.9);
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.nav_bar{
+    text-align: center;
+}
+
+div.tab{
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgba(151, 167, 231, 0.9);
+    color: black;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    transition: color, background-color 0.2s;
+}
+
+div.tab:hover{
+    cursor: pointer;
+    background-color: rgba(199, 212, 255, 0.9);
+    color: black;
+
+    transition: color, background-color 0.2s;
+}
+
+div.tab_selected{
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table.cover{
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    width: 100%;
+}
+
+table.cover td.logo{
+    padding: 10px;
+}
+
+table.cover td.fcc, table.cover td.buap{
+    padding: 5px;
+    font-size: 16px;
+}
+
+table.cover td.name{
+    padding: 5px;
+}
+
+table.cover td.title{
+    padding: 15px;
+    font-size: 20px;
+}
+
+table.classmates{
+    background-color: rgb(220,220,220);
+    border: solid 1px black;
+    border-color: rgb(100,100,100);
+    border-spacing: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table.classmates tr th{
+    border: solid 1px rgb(100,100,100);
+}
+
+table.classmates tr th.img{
+    vertical-align: middle;
+    background-color: rgb(100,100,100);
+    width: 200px;
+}
+
+table.classmates tr th.name{
+    background-color: rgb(100,100,100);
+    color: white;
+    font-size: 20px;
+    vertical-align: top;
+    height: 20px;
+    padding: 10px;
+}
+
+table.classmates tr td.id{
+    font-weight: bold;
+}
+
+table.classmates tr td{
+    border: solid 1px rgb(100,100,100);
+    vertical-align: top;
+    height: none;
+    padding: 10px;
+}
+
+table.classmates tr td.none{
+    background-color: rgb(100,100,100);
+}
