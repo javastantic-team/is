@@ -194,7 +194,7 @@ table.homework tr th{
 
 table.homework tr th.num{
     font-style: italic;
-    width: 15%;
+    width: 20%;
 }
 
 table.homework tr th.title{
@@ -214,7 +214,6 @@ table.homework tr td.content{
 }
 
 table.homework tr td.link_desc{
-    width: 10%;
     font-size: 14px;
     font-weight: bold;
 }
