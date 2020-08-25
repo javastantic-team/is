@@ -213,6 +213,11 @@ table.homework tr td.content{
     padding: 0px;
 }
 
+.content img{
+    display: block;
+    width: 798px;
+}
+
 table.homework tr td.link_desc{
     font-size: 14px;
     font-weight: bold;
