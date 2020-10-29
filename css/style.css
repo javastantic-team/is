@@ -223,6 +223,12 @@ table.homework tr td.content{
     padding: 0px;
 }
 
+table.homework tr td.history{
+    background-image: linear-gradient(rgb(46, 48, 153),rgb(44, 38, 90));
+    font-style: italic;
+    color: white;
+}
+
 .content img{
     display: block;
     width: 798px;
